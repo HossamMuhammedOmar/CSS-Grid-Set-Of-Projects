@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+}
+
+.two-fixed-column-container {
+  grid-template-columns: 300px 650px;
+}
+
+.two-fixed-row-container {
+  grid: 75px 100px / 250px 250px;
+}
+
+.two-percentage-column-container {
+  grid-template-columns: 25% 75%;
+}
+
+.two-percentage-row-container {
+  height: 600px;
+  grid-template-columns: 50% 20%;
+  grid-template-rows: 10% 90%;
+}
