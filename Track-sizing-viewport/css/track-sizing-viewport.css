@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+}
+
+.two-vw-column-container {
+  grid-template-columns: 10vw 30vw;
+}
+
+.two-vw-row-container {
+  height: 600px;
+  grid-template-columns: 10vw 30vw;
+  grid-template-rows: 5vw 15vw;
+}
+
+.two-vh-column-container {
+  grid-template-columns: 10vh 30vh;
+}
+
+.two-vh-row-container {
+  height: 600px;
+  grid-template-columns: 10vw 30vw;
+  grid-template-rows: 15vh 40vh;
+}
